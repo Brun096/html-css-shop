@@ -2,10 +2,15 @@
 	margin: 0;
 	padding: 0;
 }
-div {
-	width: 80%;
-	margin: 50px auto;
+span {
+	display: inline-block;
 }
-div img {
-	margin: 0 30px;
+.ipad {
+	position: relative;
+}
+.sconto {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	right: 0;
 }
