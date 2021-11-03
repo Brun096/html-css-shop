@@ -2,15 +2,37 @@
 	margin: 0;
 	padding: 0;
 }
+.gruppo-1 {
+	margin-top: 25px;
+}
+main {
+	width: 80%;
+}
+main {
+	margin: 50px auto;
+}
 span {
 	display: inline-block;
 }
 .ipad {
 	position: relative;
+	margin: 0 10px;
+}
+.heart {
+	position: absolute;
+	z-index: 10;
+	bottom: 2%;
+	right: 50%;
+	color: red;
+	font-size: 20px;
 }
 .sconto {
 	position: absolute;
 	z-index: 10;
 	top: 0;
 	right: 0;
+	background-color: green;
+}
+.red {
+	background-color: red;
 }
